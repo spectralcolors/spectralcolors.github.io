@@ -1,0 +1,89 @@
+body{
+  margin:12px;
+  font:1.3em "";
+/*   text-rendering: optimizeLegibility;  */
+  line-height:1.4;
+  text-align:left;
+  color:#333;
+/*   -webkit-font-smoothing: antialiased; */
+  /* background-color:#eee; */
+/*   background-color:#f9f9f9; */
+  background-color:#fafafa;
+}
+
+.wrap .grid,
+.grid.wrap{max-width:810px;margin:0 auto}
+/* .unit{box-sizing:border-box}
+.unit{float:left;width:100%;padding:0px}.grid
+.grid.wrap{max-width:150px;margin:0 auto}.grid .whole,
+.grid:after{display:table;content:""}
+.grid:after{clear:both} */
+ 
+.post,.unit.single-post-excerpt{
+  padding-top:10px;
+  padding-bottom:0px;
+  padding-left:12px;
+  padding-right:10px;
+  background-color:#ffffff;
+  -webkit-box-shadow:0px 0px 12px #DDDDDD; 
+  box-shadow:0px 0px 12px #DDDDDD;
+  border-radius:0px;
+  /* transition:all 0.1s; */
+  border:10px solid transparent
+}
+
+
+.button {
+background-color: #white; /* Green */
+border: 1px solid #3c00ff; /* Green */
+color: 3c00ff;
+padding: 2.5px 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 11px;
+margin: 0px 0px;
+cursor: pointer;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+}
+
+.button:hover {
+background-color: #ff005d; /* Green */
+border: 1px solid #ff005d; /* Green */
+color: white;
+}
+
+.button1 {border-radius: 6px;}
+
+@font-face{font-family:'FontAwesome';src:url('../font/fontawesome-webfont.eot?v=3.2.1');src:url('../font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'),url('../font/fontawesome-webfont.woff?v=3.2.1') format('woff'),url('../font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'),url('../font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1')
+
+  
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar br{
+  float: left;
+  color: #f2f2f2;
+  padding: 1px 1px;
+}
+  
+  
+#grad1 {
+  height: 100px;
+  background-color: #f9f9f9; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #33ECFF, #5B33FF); /* Standard syntax (must be last) */
+  position: relative;
+  z-index: 10;
+/*   border-radius:-5px;s
+  border:-5ppx solid transparent;
+  padding:-5ppx; */
+}
+
+
